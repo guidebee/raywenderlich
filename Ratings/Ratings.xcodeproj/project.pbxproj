@@ -16,6 +16,8 @@
 		1A0756571D254F9000D4D4D1 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0756561D254F9000D4D4D1 /* Player.swift */; };
 		1A07565B1D254FFF00D4D4D1 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A07565A1D254FFF00D4D4D1 /* SampleData.swift */; };
 		1A07565F1D25596000D4D4D1 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A07565E1D25596000D4D4D1 /* PlayerCell.swift */; };
+		1A95457F1D2693BA007AFC28 /* PlayerDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A95457E1D2693BA007AFC28 /* PlayerDetailsTableViewController.swift */; };
+		1A9545811D26A3A7007AFC28 /* GamePickerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9545801D26A3A7007AFC28 /* GamePickerTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		1A0756561D254F9000D4D4D1 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		1A07565A1D254FFF00D4D4D1 /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 		1A07565E1D25596000D4D4D1 /* PlayerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
+		1A95457E1D2693BA007AFC28 /* PlayerDetailsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerDetailsTableViewController.swift; sourceTree = "<group>"; };
+		1A9545801D26A3A7007AFC28 /* GamePickerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePickerTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +66,10 @@
 		1A0756161D253DDD00D4D4D1 /* Ratings */ = {
 			isa = PBXGroup;
 			children = (
-				1A0756591D254FC000D4D4D1 /* ViewControllers */,
+				1A95457D1D268EAB007AFC28 /* Views */,
+				1A95457C1D268E92007AFC28 /* Controllers */,
 				1A0756581D254FAD00D4D4D1 /* Models */,
 				1A0756171D253DDD00D4D4D1 /* AppDelegate.swift */,
-				1A07561B1D253DDD00D4D4D1 /* Main.storyboard */,
 				1A07561E1D253DDD00D4D4D1 /* Assets.xcassets */,
 				1A0756201D253DDD00D4D4D1 /* LaunchScreen.storyboard */,
 				1A0756231D253DDD00D4D4D1 /* Info.plist */,
@@ -82,14 +86,24 @@
 			name = Models;
 			sourceTree = "<group>";
 		};
-		1A0756591D254FC000D4D4D1 /* ViewControllers */ = {
+		1A95457C1D268E92007AFC28 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				1A0756541D254F2600D4D4D1 /* PlayersTableViewController.swift */,
 				1A0756191D253DDD00D4D4D1 /* ViewController.swift */,
 				1A07565E1D25596000D4D4D1 /* PlayerCell.swift */,
+				1A95457E1D2693BA007AFC28 /* PlayerDetailsTableViewController.swift */,
+				1A9545801D26A3A7007AFC28 /* GamePickerTableViewController.swift */,
 			);
-			name = ViewControllers;
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		1A95457D1D268EAB007AFC28 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1A07561B1D253DDD00D4D4D1 /* Main.storyboard */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,7 +185,9 @@
 				1A07561A1D253DDD00D4D4D1 /* ViewController.swift in Sources */,
 				1A0756181D253DDD00D4D4D1 /* AppDelegate.swift in Sources */,
 				1A07565B1D254FFF00D4D4D1 /* SampleData.swift in Sources */,
+				1A9545811D26A3A7007AFC28 /* GamePickerTableViewController.swift in Sources */,
 				1A0756551D254F2600D4D4D1 /* PlayersTableViewController.swift in Sources */,
+				1A95457F1D2693BA007AFC28 /* PlayerDetailsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +343,7 @@
 				1A0756281D253DDD00D4D4D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
