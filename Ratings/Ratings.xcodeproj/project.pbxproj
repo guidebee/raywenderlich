@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1A0756181D253DDD00D4D4D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0756171D253DDD00D4D4D1 /* AppDelegate.swift */; };
-		1A07561A1D253DDD00D4D4D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0756191D253DDD00D4D4D1 /* ViewController.swift */; };
 		1A07561D1D253DDD00D4D4D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A07561B1D253DDD00D4D4D1 /* Main.storyboard */; };
 		1A07561F1D253DDD00D4D4D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A07561E1D253DDD00D4D4D1 /* Assets.xcassets */; };
 		1A0756221D253DDD00D4D4D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A0756201D253DDD00D4D4D1 /* LaunchScreen.storyboard */; };
@@ -23,7 +22,6 @@
 /* Begin PBXFileReference section */
 		1A0756141D253DDD00D4D4D1 /* Ratings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ratings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A0756171D253DDD00D4D4D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1A0756191D253DDD00D4D4D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1A07561C1D253DDD00D4D4D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A07561E1D253DDD00D4D4D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A0756211D253DDD00D4D4D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -90,7 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				1A0756541D254F2600D4D4D1 /* PlayersTableViewController.swift */,
-				1A0756191D253DDD00D4D4D1 /* ViewController.swift */,
 				1A07565E1D25596000D4D4D1 /* PlayerCell.swift */,
 				1A95457E1D2693BA007AFC28 /* PlayerDetailsTableViewController.swift */,
 				1A9545801D26A3A7007AFC28 /* GamePickerTableViewController.swift */,
@@ -182,7 +179,6 @@
 			files = (
 				1A07565F1D25596000D4D4D1 /* PlayerCell.swift in Sources */,
 				1A0756571D254F9000D4D4D1 /* Player.swift in Sources */,
-				1A07561A1D253DDD00D4D4D1 /* ViewController.swift in Sources */,
 				1A0756181D253DDD00D4D4D1 /* AppDelegate.swift in Sources */,
 				1A07565B1D254FFF00D4D4D1 /* SampleData.swift in Sources */,
 				1A9545811D26A3A7007AFC28 /* GamePickerTableViewController.swift in Sources */,
